@@ -1,0 +1,14 @@
+html  {
+  background-color: #f3f4f5;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+td {
+  border: 1px solid #D8D4D4;
+  width: 80px;
+  line-height: 1.2rem;/*establece la distancia entre líneas de texto*/
+  padding: 15px;
+  background-color:#C5C0B7;
+}
