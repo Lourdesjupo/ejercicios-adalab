@@ -1,0 +1,24 @@
+*{
+  
+  
+}
+.div1 {
+  font-size: 12px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* display: flex;
+justify-content: space-between; */
+  vertical-align: bottom;
+}
+.type {
+  background-color: red;
+  border-radius: 2px;
+  color:white;
+  padding-left: 3px;
+  padding-right: 3px;
+  position:absolute;
+  right:8px;
+  top:12px;
+  font-size: 8px;
+  vertical-align: bottom;
+}
+  

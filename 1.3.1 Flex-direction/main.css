@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  flex-direction: row;
+
+  box-sizing: border-box;
+  border: 2px solid rgb(222, 31, 31);
+  width: 500px;
+  height: 500px;
+}
+
+.box {
+  border: 2px solid rgb(13, 79, 81);
+  background-color: cadetblue;
+}

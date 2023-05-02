@@ -1,0 +1,47 @@
+* {
+  margin:0;
+
+}
+html {
+  text-align: center;
+  max-width: 960px;
+}
+
+header {
+  background-color: coral;
+  height: 30px;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+
+
+main{
+  display: flex;
+
+}
+.aside1 {
+  background-color:#ffd700;
+  min-width: 20%;
+  padding-top: 5px;
+
+}
+section {
+  background-color: #00beff;
+  min-width: 60%;
+  text-align: left;
+}
+.aside2 {
+  background-color: #ff69b4;
+  min-width: 20%;
+  padding-top: 5px;
+}
+footer{
+  background-color: #91ee91;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}

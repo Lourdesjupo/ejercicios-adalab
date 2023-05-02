@@ -1,0 +1,22 @@
+.box {
+  width: 300px;
+  height: 300px;
+  margin: 40px;
+  padding: 30px;
+      position: relative;
+}
+.box-1 {
+  background-color: blue;
+  left: 100px;
+  top: 50px;
+}
+.box-2 {
+  background-color: blueviolet;
+  right: 150px;
+  bottom: 320px;
+}
+.box-3 {
+  background-color: cornflowerblue;
+  left: 180px;
+  bottom: 240px;
+}

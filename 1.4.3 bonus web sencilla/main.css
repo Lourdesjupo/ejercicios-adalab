@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  background-color: black;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+.header-title {
+  margin-left: 18%;
+}
+
+.header-menu {
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+}
+.header nav {
+  margin-right: 18%;
+}
+.header-menu li {
+  list-style: none;
+}
+
+section {
+  margin: 0 18%;
+}
+.encabezado {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.article {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.article h2 {
+  margin-bottom: 20px;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 25%;
+  color: grey;
+  height: 15vh;
+}
+.modal {
+  width: 100vw;
+  height: 100%;
+  position: fixed;
+  background-color: black;
+  text-align: center;
+  padding: 30px 20px;
+  opacity: 0.6;
+}
+.contenido {
+  background-color: white;
+  z-index: 1;
+  width: 350px;
+  height: 250px;
+  position: fixed;
+  margin: auto;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.modal-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+}
+.modal-text--title {
+  font-weight: 500;
+  font-size: 30px;
+  padding-bottom: 20px;
+  padding-top: 50px;
+}
+
+.modal-text--subtitle {
+  text-align: center;
+}
+
+button {
+  width: 100px;
+  height: 30px;
+  margin: 20px;
+}
+.button-1 {
+  background-color: white;
+  border-radius: 3px;
+  font-weight: 500;
+}
+.button-2 {
+  background-color: black;
+  border-radius: 3px;
+  font-weight: 500;
+  color: white;
+}

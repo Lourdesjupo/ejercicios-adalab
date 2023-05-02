@@ -1,0 +1,15 @@
+*{
+  margin:0;
+}
+
+header {
+  background-color: blueviolet;
+  height: 40px;
+  width: 100%;
+    position: fixed;
+}
+/* .header {
+
+  height: 40px;
+  background-color: blueviolet;
+} */
